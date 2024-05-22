@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    background-color: rgb(10, 10, 10);
+}
+
+#board {
+    width: 400px;
+    height: 400px;
+    border: 1px solid bisque;
+    background-color: rgb(17, 17, 17);
+
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.texted{
+    color: bisque;
+}
+
+#board div {
+    width: 48px;
+    height: 48px;
+    border: 1px solid rgb(255, 228, 196);
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tile-clicked {
+    background-color: white;
+}
+
+.x1 {
+    color: rgb(0, 242, 255);
+}
+
+.x2 {
+    color: limegreen;
+}
+
+.x3 {
+    color: rgb(255, 0, 0);
+}
+
+.x4 {
+    color: rgb(201, 0, 201);
+}
+
+.x5 {
+    color: gold;
+}
+
+.x6 {
+    color: blue;
+}
+
+.x7 {
+    color: teal;
+}
+
+.x8 {
+    color: black;
+}
+
+#flag-button {
+    width: 100px;
+    height: 50px;
+    font-size: 30px;
+    background-color: #0b0b0b;
+    border: none;
+    border: bisque 1px solid;
+}
+
+#mines-count {
+    color: bisque;
+}
